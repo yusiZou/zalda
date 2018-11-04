@@ -36,7 +36,7 @@ _to be done before 25th November_
 - Find the communication frequency between Hillary and the others
 - Personal social network creation and analysis: use the communication frequency to create a personal social network of Hillary and analyze the network structure
 
-# Questions for TAa
+# Questions for TAs
 1. How do you find the scope of our project? Does it fit the expectation?
 2. We want to relate our project to the theme "Data Science for social good" in this way: we think that by looking at these emails, we can figure out its impact on international affaires which influence the global stability and security. Is our motivation clear enough?
 
