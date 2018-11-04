@@ -9,10 +9,10 @@ As a superpower, the United States has a great impact on the world’s stability
 
 # Research questions
 In this project we want to figure out:
-- What countries are mostly mentioned by Hillary Clinton?
+- What countries are mostly mentioned in the emails?
 - What is the time series relation between the global events and the emails?
 - What sentiment and emotion are expressed in the emails?
-- To whom does she communicate most? Which position are they in?
+- To whom does she communicate most? What are their position?
 - What are the key words in these emails?
 - What topics do they discuss?
 
