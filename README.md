@@ -9,12 +9,12 @@ As a superpower, the United States has a great impact on the world’s stability
 
 # Research questions
 In this project we want to figure out:
+
+- With whom does she communicate most? What are their position?
 - What countries are mostly mentioned in the emails?
 - What is the time series relation between the global events and the emails?
-- What sentiment and emotion are expressed in the emails?
-- To whom does she communicate most? What are their position?
-- What are the key words in these emails?
-- What topics do they discuss?
+- Is her attitude positive or negative in the emails? How is her attitude to the other countries? 
+- What topics does she discuss?
 
 # Dataset
 
@@ -27,6 +27,8 @@ We will use the dataset on [Kaggle](https://www.kaggle.com/kaggle/hillary-clinto
 The most important information is in `Emails.csv`. It contains 7945 rows (emails), some of them are less important, just "FYI" or without any body text. It contains 22 columns, including the alias of sender and receiver, the sending time and the body text. The other data files will help us to identify the real name of people involved: `Aliases.csv` identifies the alias to the _PersonId_, `EmailReceivers.csv` maps the receivers of emails to the _PersonId_ and `Persons.csv` translate the unique _PersonId_ to their realname.
 
 The number of samples in the date set is not very large. In addition to the analysis of numeric data, we will also concentrate on textual content and keywords.
+
+In addition to our basic dataset, we also use a dataset for country names which can be found in [Statgraphics](http://www.statgraphics.com/). In order to draw the 
 
 # A list of internal milestones up until project milestone 2
 _to be done before 25th November_
