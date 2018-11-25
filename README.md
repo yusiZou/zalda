@@ -40,6 +40,7 @@ The number of samples in the date set is not very large. In addition to the anal
 * Construct a countries occurence list and visualization.
 
 # What we will do until milestone 3
+- Analyze the position of people with whom Hillary communicate with.
 - Figure out the time series relation between the global events and the emails : analyse the distribution of time for the most frequently mentioned countries and search for the reason behind.
 - Do sentiment analysis (positive or negative) on the emails and find the US government's (or more precisely, Hillary's) attitude to the other countries. Use the Natural Language Toolkit (NLTK) to analyze the email texts and classify the mood.
 - Find the topics that she discusses in general and w.r.t the different countries and different people. Use the term-frequency-inverse document frequency (tf-idf) method to find topics. The term frequency indicates the number of times a term occurs in a specific document, and the inverse document frequency indicates the frequency of a term in all document. If the TF is high, then it seems to be an important topic, but if at the same time the IDF is high, it means that this word is in too many documents that it losses importance.
