@@ -10,7 +10,7 @@ As a superpower, the United States has a great impact on the world’s stability
 # Research questions
 In this project we want to figure out:
 
-- With whom does she communicate most? What are their position?
+- With whom does she communicate most? What are their positions?
 - What countries are mostly mentioned in the emails?
 - What is the time series relation between the global events and the emails?
 - Is her attitude positive or negative in the emails? How is her attitude to the other countries? 
@@ -18,6 +18,7 @@ In this project we want to figure out:
 
 # Dataset
 
+### Original Dataset:
 We will use the dataset on [Kaggle](https://www.kaggle.com/kaggle/hillary-clinton-emails). It contains four csv files: 
 - `Aliases.csv` (~ 20kB)
 - `EmailReceivers.csv` (~ 117Kb)
@@ -28,19 +29,18 @@ The most important information is in `Emails.csv`. It contains 7945 rows (emails
 
 The number of samples in the date set is not very large. In addition to the analysis of numeric data, we will also concentrate on textual content and keywords.
 
-In addition to our basic dataset, we also use a dataset for country names which can be found in [Statgraphics](http://www.statgraphics.com/). In order to draw the 
+### Additional Dataset:
+- In addition to our basic dataset, we also use a dataset for country names which can be found in [Statgraphics](http://www.statgraphics.com/). 
+- In order to visulize the world map, we also use a json file for country boarders which can be found on [this website](https://geojson-maps.ash.ms/). 
 
-# A list of internal milestones up until project milestone 2
-_to be done before 25th November_
-- Data wrangling: clean and deal with unvalid or missing data; combine data files for useful information
-- Construct a countries occurence list
-- Identify key words related to international affairs in the body text
-- Find the communication frequency between Hillary and the others
-- Personal social network creation and analysis: use the communication frequency to create a personal social network of Hillary and analyze the network structure
+# What we have done until milestone 2
+* Data wrangling: clean and deal with unvalid or missing data.
+* Combine and merge data files for further analysis.
+* Find the communication frequency between Hillary and the others in both direction.
+* Construct a countries occurence list and visualization.
 
-# Questions for TAs
-1. How do you find the scope of our project? Does it fit the expectation?
-2. We want to relate our project to the theme "Data Science for social good" in this way: we think that by looking at these emails, we can figure out its impact on international affaires which influence the global stability and security. Is our motivation clear enough?
-
-
+# What we will do until milestone 3
+- Figure out the time series relation between the global events and the emails : analyse the distribution of time for the most frequently mentioned countries and search for the reason behind.
+- Do sentiment analysis (positive or negative) on the emails and find the US government's (or more precisely, Hillary's) attitude to the other countries. Use the Natural Language Toolkit (NLTK) to analyze the email texts and classify the mood.
+- Find the topics that she discusses in general and w.r.t the different countries and different people. Use the term-frequency-inverse document frequency (tf-idf) method to find topics. The term frequency indicates the number of times a term occurs in a specific document, and the inverse document frequency indicates the frequency of a term in all document. If the TF is high, then it seems to be an important topic, but if at the same time the IDF is high, it means that this word is in too many documents that it losses importance.
 
