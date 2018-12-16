@@ -4,7 +4,7 @@
 **Data story**: [The legend of Zalda](https://thelegendofzalda.github.io)
 
 ## Abstract
-In 2015, Hillary Clinton has been embroiled in controversy over the use of personal email accounts on non-government servers during her time as the United States Secretary of State. Over 2000 confidential emails were leaked, some of them are even classified as “Top Secret”. 
+In 2015, Hillary Clinton was embroiled in controversy over the use of personal email accounts on non-government servers during her time as the United States Secretary of State. Over 2000 confidential emails were leaked, some of them are even classified as “Top Secret”. 
 
 In this project, we looked at the politic, security and economic aspects through the 7945 leaked emails redacted and published by the State Department and cleaned by Kaggle. We also analyzed the personal social network of Hillary Clinton and the top topics they discussed.
 
@@ -14,22 +14,22 @@ As a superpower, the United States has a great impact on the world’s stability
 This project is based on [Anaconda](https://www.anaconda.com/) and [Jupyter notebook](https://jupyter.org/).  We install all packages through the Anaconda Prompt. These packages have been tested in **Window 10 Home** and **macOS Mojave**, but it should be easy to implement in other platforms. 
 
 ### Anaconda
-This project is based on anaconda and jupiter notebook. Download and install instructions can be found at: https://www.anaconda.com/download/. After installing Anaconda, we can install packages using `pip` or `conda` to install Python packages.
+This project is based on anaconda and jupiter notebook. Download and install instructions can be found at: https://www.anaconda.com/download/. After installing Anaconda, `pip` and `conda` can be used to install Python packages.
 
 ### Scipy
-We use the scientific computing and visualization functionalities of [scipy](https://www.scipy.org/install.html), especially the numpy, pandas and matplotlib package. You can install these packages by typing the following command in your Anaconda Prompt.
+We use the scientific computing and visualization functionalities of [scipy](https://www.scipy.org/install.html), especially the numpy, pandas and matplotlib package. These packages can be installed by typing the following command in your Anaconda Prompt.
 ```
 python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
 ```
 
 ### Seaborn
-We use [Seaborn](https://seaborn.pydata.org/) to visualize data. You can install the package by typing the following command in your Anaconda Prompt.
+We use [Seaborn](https://seaborn.pydata.org/) to visualize data. The package can be installed by typing the following command in your Anaconda Prompt.
 ```
 pip install seaborn
 ```
 
 ### Plotly
-We use [Plotly](https://plot.ly/) to generate .html files for our figures. You can install the package by typing the following command in your Anaconda Prompt.
+We use [Plotly](https://plot.ly/) to generate .html files for our figures. The package can be installed by typing the following command in your Anaconda Prompt.
 ```
 pip install plotly 
 ```
@@ -39,34 +39,33 @@ pip install plotly --upgrade
 ```
 
 ### Folium
-We use [Folium](https://pypi.org/project/folium/) to display data on maps. You can install the package by typing the following command in your Anaconda Prompt.
+We use [Folium](https://pypi.org/project/folium/) to display data on maps. The package can be installed by typing the following command in your Anaconda Prompt.
 ```
 pip install folium
 ```
 
 ### NLTK
-We use [NLTK](https://www.nltk.org/) to analyze the attitudes of Hillary toward different countries. You can install the package by typing the following command in your Anaconda Prompt.
+We use [NLTK](https://www.nltk.org/) to analyze the attitudes of Hillary toward different countries. The package can be installed by typing the following command in your Anaconda Prompt.
 ```
 pip install -U nltk
 ```
 
 ### Wordcloud
-We use [wordcloud](https://amueller.github.io/word_cloud/index.html) to generate a wordcloud of keywords in Hillary's emails. You can install the package by typing the following command in your Anaconda Prompt.
+We use [wordcloud](https://amueller.github.io/word_cloud/index.html) to generate a wordcloud of keywords in Hillary's emails. The package can be installed by typing the following commands in your Anaconda Prompt.
 ```
 conda install -c conda-forge wordcloud 
 conda install -c conda-forge/label/gcc7 wordcloud 
 ```
 
 ## 2. Research questions
-In this project we figured out:
+In this project we have figured out:
 - With whom does she communicate most? What are their positions?
 - What countries are mostly mentioned in the emails?
 - What topics does she discuss?
 - What is the time series relation between the global events and the emails?
-- Is her attitude positive or negative in the emails? How is her attitude to the other countries? 
+- Is her attitude positive or negative in the emails? How is her attitude to the other countries?
 
 ## 3. Dataset
-
 ### Original Dataset:
 We use the dataset on [Kaggle](https://www.kaggle.com/kaggle/hillary-clinton-emails). It contains four csv files: 
 - `Aliases.csv` (~ 20kB)
@@ -103,12 +102,12 @@ The number of samples in the data set is not very large. Therefore, in addition 
 - Data story
 
 **Junze Li:**
-- Construction of the countries occurrence list
+- The countries occurrence list
 - Sentiment Analysis
 - Data story
 
 **Zhantao Deng:**
-- Creating the Occurrence-World-Map
+- Occurrence World Map
 - Visualizing and analyzing occurrences by months and by countries
 - Topic analysis using TF-IDF
 
